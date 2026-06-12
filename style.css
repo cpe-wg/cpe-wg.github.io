@@ -1,0 +1,47 @@
+:root {
+    background-color: #eee;
+    margin: 0.5em;
+}
+
+body {
+    font-family: sans-serif;
+    background-color: white;
+    margin: auto;
+    max-width: 120ch;
+    border: 1px solid;
+}
+
+main {
+    margin: 1em;
+}
+
+header {
+    padding: 1em;
+    background-color: #ccffd4;
+    text-align: center;
+}
+
+header h1 {
+    display: inline;
+    margin-right: 0.5em;
+}
+
+header h1::before {
+    content: "LL";
+    margin-right: 0.2em;
+    display: inline-block;
+    aspect-ratio: 1;
+    color: rgba(0,0,0,0);
+    background: left/contain no-repeat url('cpe-wg.svg');
+}
+
+header nav, header nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+header nav ul li {
+    display: inline;
+    margin-right: 0.5em;
+}
